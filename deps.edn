@@ -1,0 +1,4 @@
+{:deps    {org.apache.maven/maven-artifact {:mvn/version "3.8.4"}}
+ :aliases {:build {:deps       {io.github.clojure/tools.build {:tag "v0.7.5"
+                                                               :sha "34727f7"}}
+                   :ns-default build}}}
